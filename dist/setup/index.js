@@ -5440,7 +5440,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getManifest = exports.getEnvoy = void 0;
+exports.getEnvoyVersions = exports.getEnvoy = void 0;
 const os = __nccwpck_require__(37);
 const path = __nccwpck_require__(17);
 const core = __importStar(__nccwpck_require__(186));
@@ -5452,7 +5452,7 @@ const archMap = {
 };
 function getEnvoy(version) {
     return __awaiter(this, void 0, void 0, function* () {
-        const envoyVersions = yield getManifest();
+        const envoyVersions = yield getEnvoyVersions();
         const currentVersion = version || (envoyVersions === null || envoyVersions === void 0 ? void 0 : envoyVersions.latestVersion);
         const currentVersionInfo = envoyVersions === null || envoyVersions === void 0 ? void 0 : envoyVersions.versions[currentVersion];
         const osArch = getOsArch();
@@ -5468,7 +5468,7 @@ function getEnvoy(version) {
 }
 exports.getEnvoy = getEnvoy;
 const manifestUrl = 'https://archive.tetratelabs.io/envoy/envoy-versions.json';
-function getManifest() {
+function getEnvoyVersions() {
     return __awaiter(this, void 0, void 0, function* () {
         const httpClient = new hc.HttpClient('setup-envoy', [], {
             allowRetries: true,
@@ -5478,7 +5478,7 @@ function getManifest() {
         return response.result;
     });
 }
-exports.getManifest = getManifest;
+exports.getEnvoyVersions = getEnvoyVersions;
 function getOsArch() {
     return os.platform() + '/' + (archMap[os.arch()] || 'amd64');
 }

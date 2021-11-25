@@ -33,7 +33,7 @@ const archMap = {
 };
 
 export async function getEnvoy(version: string): Promise<void> {
-  const envoyVersions = await getManifest();
+  const envoyVersions = await getEnvoyVersions();
   const currentVersion = version || envoyVersions?.latestVersion!;
   const currentVersionInfo = envoyVersions?.versions[currentVersion];
   const osArch = getOsArch();
@@ -48,7 +48,7 @@ export async function getEnvoy(version: string): Promise<void> {
 }
 
 const manifestUrl = 'https://archive.tetratelabs.io/envoy/envoy-versions.json';
-export async function getManifest() {
+export async function getEnvoyVersions() {
   const httpClient = new hc.HttpClient('setup-envoy', [], {
     allowRetries: true,
     maxRetries: 3
