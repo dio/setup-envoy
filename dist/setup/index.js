@@ -5459,7 +5459,7 @@ function getEnvoy(version) {
         const osArch = getOsArch();
         const tarball = currentVersionInfo === null || currentVersionInfo === void 0 ? void 0 : currentVersionInfo.tarballs[osArch];
         const downloaded = yield tc.downloadTool(tarball);
-        const extracted = yield tc.extractTar(downloaded, undefined, ['xJ']);
+        const extracted = yield tc.extractTar(downloaded, undefined, ['xJ', '--strip', '1']);
         core.info(extracted);
         yield proc.exec('ls', ['-la', extracted]);
         const cached = yield tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
