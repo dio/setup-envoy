@@ -5461,7 +5461,6 @@ function getEnvoy(version) {
         const extracted = yield tc.extractTar(downloaded, undefined, ['xJ']);
         const cached = yield tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
         core.addPath(path.join(cached, 'bin'));
-        // TODO(dio): Support win32.
         core.info('Done');
     });
 }
