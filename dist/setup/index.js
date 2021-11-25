@@ -5460,9 +5460,12 @@ function getEnvoy(version) {
         const tarball = currentVersionInfo === null || currentVersionInfo === void 0 ? void 0 : currentVersionInfo.tarballs[osArch];
         const downloaded = yield tc.downloadTool(tarball);
         const extracted = yield tc.extractTar(downloaded, undefined, ['xJ']);
+        core.info(extracted);
+        yield proc.exec('ls', ['-la', extracted]);
         const cached = yield tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
         core.addPath(path.join(cached, 'bin'));
         core.info(path.join(cached, 'bin'));
+        yield proc.exec('ls', ['-la', path.join(cached)]);
         yield proc.exec('ls', ['-la', path.join(cached, 'bin')]);
         yield proc.exec(path.join(cached, 'bin', 'envoy'), ['--version']);
         yield proc.exec('envoy', ['--version']);
