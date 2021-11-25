@@ -40,7 +40,7 @@ export async function getEnvoy(version: string): Promise<void> {
   const osArch = getOsArch();
   const tarball = currentVersionInfo?.tarballs[osArch];
   const downloaded = await tc.downloadTool(tarball);
-  const extracted = await tc.extractTar(downloaded, undefined, ['xJ']);
+  const extracted = await tc.extractTar(downloaded, undefined, ['xJ', '--strip', '1']);
   core.info(extracted);
   await proc.exec('ls', ['-la', extracted]);
   const cached = await tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
