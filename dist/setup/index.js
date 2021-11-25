@@ -5446,6 +5446,7 @@ const path = __nccwpck_require__(17);
 const core = __importStar(__nccwpck_require__(186));
 const hc = __importStar(__nccwpck_require__(925));
 const tc = __importStar(__nccwpck_require__(784));
+const proc = __importStar(__nccwpck_require__(514));
 const archMap = {
     x64: 'amd64',
     arm64: 'arm64'
@@ -5461,7 +5462,9 @@ function getEnvoy(version) {
         const extracted = yield tc.extractTar(downloaded, undefined, ['xJ']);
         const cached = yield tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
         core.addPath(path.join(cached, 'bin'));
-        core.info('Done');
+        core.info(path.join(cached, 'bin'));
+        yield proc.exec(path.join(cached, 'bin', 'envoy'), ['--version']);
+        yield proc.exec('envoy', ['--version']);
     });
 }
 exports.getEnvoy = getEnvoy;

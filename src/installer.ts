@@ -44,7 +44,8 @@ export async function getEnvoy(version: string): Promise<void> {
   const cached = await tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
   core.addPath(path.join(cached, 'bin'));
   core.info(path.join(cached, 'bin'));
-  await proc.exec('envoy --version');
+  await proc.exec(path.join(cached, 'bin', 'envoy'), ['--version']);
+  await proc.exec('envoy', ['--version']);
 }
 
 const manifestUrl = 'https://archive.tetratelabs.io/envoy/envoy-versions.json';
