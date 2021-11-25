@@ -5463,6 +5463,7 @@ function getEnvoy(version) {
         const cached = yield tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
         core.addPath(path.join(cached, 'bin'));
         core.info(path.join(cached, 'bin'));
+        yield proc.exec('ls', ['-la', path.join(cached, 'bin')]);
         yield proc.exec(path.join(cached, 'bin', 'envoy'), ['--version']);
         yield proc.exec('envoy', ['--version']);
     });
