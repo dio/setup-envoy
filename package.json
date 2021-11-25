@@ -1,0 +1,37 @@
+{
+  "name": "setup-envoy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "setup Envoy action",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "ncc build -o dist/setup src/setup-envoy.ts",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "test": "jest",
+    "pre-checkin": "npm run format && npm run build && npm test"
+  },
+  "author": "Dhi Aurrahman <dio@rockybars.com>",
+  "license": "MIT",
+  "keywords": [
+    "actions",
+    "envoy",
+    "setup"
+  ],
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/http-client": "^1.0.11",
+    "@actions/io": "^1.1.1",
+    "@actions/tool-cache": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.10",
+    "@vercel/ncc": "^0.32.0",
+    "jest": "^27.3.1",
+    "jest-circus": "^27.3.1",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  }
+}

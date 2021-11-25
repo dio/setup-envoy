@@ -1,0 +1,10 @@
+name: 'Setup Envoy binary'
+description: 'Setup Envoy binary'
+author: Dhi Aurrahman
+inputs:
+  envoy-version:
+    description: 'Version spec of the Envoy version to use'
+    required: false
+runs:
+  using: 'node12'
+  main: 'dist/setup/index.js'

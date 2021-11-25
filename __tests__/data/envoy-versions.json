@@ -1,0 +1,382 @@
+{
+  "latestVersion": "1.20.0",
+  "versions": {
+    "1.12.0": {
+      "releaseDate": "2019-11-01",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.0/envoy-v1.12.0-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.1": {
+      "releaseDate": "2019-11-09",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.1/envoy-v1.12.1-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.2": {
+      "releaseDate": "2019-12-10",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.2/envoy-v1.12.2-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.3": {
+      "releaseDate": "2020-03-03",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.3/envoy-v1.12.3-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.4": {
+      "releaseDate": "2020-06-08",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.4/envoy-v1.12.4-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.5": {
+      "releaseDate": "2020-06-30",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.5/envoy-v1.12.5-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.6": {
+      "releaseDate": "2020-07-07",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.6/envoy-v1.12.6-linux-amd64.tar.xz"
+      }
+    },
+    "1.12.7": {
+      "releaseDate": "2020-09-29",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.12.7/envoy-v1.12.7-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.0": {
+      "releaseDate": "2020-01-20",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.0/envoy-v1.13.0-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.1": {
+      "releaseDate": "2020-03-03",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.1/envoy-v1.13.1-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.2": {
+      "releaseDate": "2020-06-08",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.2/envoy-v1.13.2-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.3": {
+      "releaseDate": "2020-06-30",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.3/envoy-v1.13.3-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.4": {
+      "releaseDate": "2020-07-07",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.4/envoy-v1.13.4-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.6": {
+      "releaseDate": "2020-09-29",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.6/envoy-v1.13.6-linux-amd64.tar.xz"
+      }
+    },
+    "1.13.7": {
+      "releaseDate": "2020-12-07",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.7/envoy-v1.13.7-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.13.7/envoy-v1.13.7-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.1": {
+      "releaseDate": "2020-04-08",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.1/envoy-v1.14.1-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.2": {
+      "releaseDate": "2020-06-08",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.2/envoy-v1.14.2-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.3": {
+      "releaseDate": "2020-06-30",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.3/envoy-v1.14.3-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.4": {
+      "releaseDate": "2020-07-07",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.4/envoy-v1.14.4-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.5": {
+      "releaseDate": "2020-09-29",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.5/envoy-v1.14.5-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.6": {
+      "releaseDate": "2020-12-07",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.6/envoy-v1.14.6-linux-amd64.tar.xz"
+      }
+    },
+    "1.14.7": {
+      "releaseDate": "2021-04-15",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.7/envoy-v1.14.7-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.14.7/envoy-v1.14.7-linux-amd64.tar.xz"
+      }
+    },
+    "1.15.0": {
+      "releaseDate": "2020-07-07",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.15.0/envoy-v1.15.0-linux-amd64.tar.xz"
+      }
+    },
+    "1.15.1": {
+      "releaseDate": "2020-09-29",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.15.1/envoy-v1.15.1-linux-amd64.tar.xz"
+      }
+    },
+    "1.15.2": {
+      "releaseDate": "2020-09-30",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.15.2/envoy-v1.15.2-linux-amd64.tar.xz"
+      }
+    },
+    "1.15.3": {
+      "releaseDate": "2020-12-07",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.15.3/envoy-v1.15.3-linux-amd64.tar.xz"
+      }
+    },
+    "1.15.5": {
+      "releaseDate": "2021-05-11",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.15.5/envoy-v1.15.5-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.15.5/envoy-v1.15.5-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.15.5/envoy-v1.15.5-linux-arm64.tar.xz"
+      }
+    },
+    "1.16.0": {
+      "releaseDate": "2020-10-08",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.0/envoy-v1.16.0-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.16.0/envoy-v1.16.0-linux-arm64.tar.xz"
+      }
+    },
+    "1.16.1": {
+      "releaseDate": "2020-11-21",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.1/envoy-v1.16.1-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.16.1/envoy-v1.16.1-linux-arm64.tar.xz"
+      }
+    },
+    "1.16.2": {
+      "releaseDate": "2020-12-08",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.2/envoy-v1.16.2-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.16.2/envoy-v1.16.2-linux-arm64.tar.xz"
+      }
+    },
+    "1.16.3": {
+      "releaseDate": "2021-04-15",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.3/envoy-v1.16.3-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.16.3/envoy-v1.16.3-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.3/envoy-v1.16.3-windows-amd64.tar.xz"
+      }
+    },
+    "1.16.4": {
+      "releaseDate": "2021-05-11",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.4/envoy-v1.16.4-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.4/envoy-v1.16.4-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.16.4/envoy-v1.16.4-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.4/envoy-v1.16.4-windows-amd64.tar.xz"
+      }
+    },
+    "1.16.5": {
+      "releaseDate": "2021-08-24",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.16.5/envoy-v1.16.5-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.16.5/envoy-v1.16.5-linux-arm64.tar.xz"
+      }
+    },
+    "1.17.0": {
+      "releaseDate": "2021-01-11",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.0/envoy-v1.17.0-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.17.0/envoy-v1.17.0-linux-arm64.tar.xz"
+      }
+    },
+    "1.17.1": {
+      "releaseDate": "2021-02-26",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.1/envoy-v1.17.1-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.17.1/envoy-v1.17.1-linux-arm64.tar.xz"
+      }
+    },
+    "1.17.2": {
+      "releaseDate": "2021-04-15",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.2/envoy-v1.17.2-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.17.2/envoy-v1.17.2-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.2/envoy-v1.17.2-windows-amd64.tar.xz"
+      }
+    },
+    "1.17.3": {
+      "releaseDate": "2021-05-11",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.3/envoy-v1.17.3-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.3/envoy-v1.17.3-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.17.3/envoy-v1.17.3-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.3/envoy-v1.17.3-windows-amd64.tar.xz"
+      }
+    },
+    "1.17.4": {
+      "releaseDate": "2021-08-24",
+      "tarballs": {
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.4/envoy-v1.17.4-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.17.4/envoy-v1.17.4-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.17.4/envoy-v1.17.4-windows-amd64.tar.xz"
+      }
+    },
+    "1.18.3": {
+      "releaseDate": "2021-05-11",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.18.3/envoy-v1.18.3-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.18.3/envoy-v1.18.3-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.18.3/envoy-v1.18.3-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.18.3/envoy-v1.18.3-windows-amd64.tar.xz"
+      }
+    },
+    "1.18.4": {
+      "releaseDate": "2021-08-24",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.18.4/envoy-v1.18.4-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.18.4/envoy-v1.18.4-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.18.4/envoy-v1.18.4-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.18.4/envoy-v1.18.4-windows-amd64.tar.xz"
+      }
+    },
+    "1.19.0": {
+      "releaseDate": "2021-07-14",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.19.0/envoy-v1.19.0-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.19.0/envoy-v1.19.0-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.19.0/envoy-v1.19.0-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.19.0/envoy-v1.19.0-windows-amd64.tar.xz"
+      }
+    },
+    "1.19.1": {
+      "releaseDate": "2021-08-24",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.19.1/envoy-v1.19.1-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.19.1/envoy-v1.19.1-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.19.1/envoy-v1.19.1-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.19.1/envoy-v1.19.1-windows-amd64.tar.xz"
+      }
+    },
+    "1.20.0": {
+      "releaseDate": "2021-10-05",
+      "tarballs": {
+        "darwin/amd64": "https://archive.tetratelabs.io/envoy/download/v1.20.0/envoy-v1.20.0-darwin-amd64.tar.xz",
+        "linux/amd64": "https://archive.tetratelabs.io/envoy/download/v1.20.0/envoy-v1.20.0-linux-amd64.tar.xz",
+        "linux/arm64": "https://archive.tetratelabs.io/envoy/download/v1.20.0/envoy-v1.20.0-linux-arm64.tar.xz",
+        "windows/amd64": "https://archive.tetratelabs.io/envoy/download/v1.20.0/envoy-v1.20.0-windows-amd64.tar.xz"
+      }
+    }
+  },
+  "sha256sums": {
+    "envoy-v1.12.0-linux-amd64.tar.xz": "fa0bcb7ffa296d79ab34ca9495e2a45fbb27ed1dd22f9fa72cc10d6c3bb56e67",
+    "envoy-v1.12.1-linux-amd64.tar.xz": "f1c4f3c317fa0ad64a66442f9ab57b5911c599eb53ada285a7ef754a1e43e541",
+    "envoy-v1.12.2-linux-amd64.tar.xz": "5f61d3f2d1fed8a45f8856df47f38a794ce4b20bcd47d0c7a56315b437057aaa",
+    "envoy-v1.12.3-linux-amd64.tar.xz": "7d319797a13c4a09e02486acc9a240b00b764ba6aa6119e35f08419e6f857c42",
+    "envoy-v1.12.4-linux-amd64.tar.xz": "504d3055333c0883fcac22734f5f302c681d4eb1c31128a0307dd986d070b6f8",
+    "envoy-v1.12.5-linux-amd64.tar.xz": "74363a3d5bbbc155ebc37c3319cbb6577b154e59ffd011d3fe15467a3b626890",
+    "envoy-v1.12.6-linux-amd64.tar.xz": "750848079dadb4dc7982bb86d68d76b5b34fe083278a3187bfa70224d07431ab",
+    "envoy-v1.12.7-linux-amd64.tar.xz": "10c22eabf321b5dc860742a4a31f46168198a4620eb2ee1847e775f55331be24",
+    "envoy-v1.13.0-linux-amd64.tar.xz": "06a677beb179b6164ca76b3a87c9df65c0e214859e0b9527571708a0492dd057",
+    "envoy-v1.13.1-linux-amd64.tar.xz": "005f1c9ee4f9d7ef9a9b6132b6001cdc1fd2b29071489b41831b33c0007ed3bb",
+    "envoy-v1.13.2-linux-amd64.tar.xz": "d5f3c537b257dbad600ae3722bce4a7b04bd41d1633e58da0ba475dad03bf689",
+    "envoy-v1.13.3-linux-amd64.tar.xz": "62cb503b233ca16e3a1001cc2c56a9d840a3ec5b85cc1236edcc1e904443ea5e",
+    "envoy-v1.13.4-linux-amd64.tar.xz": "a458c641eb66bacd3b7944a96eaae0595ef0688b804fe2c00de73f36f6a5956c",
+    "envoy-v1.13.6-linux-amd64.tar.xz": "d235b1de3fa5c2dc54f7a1950d1240cc331596e86eec0b0840d84cf6849d4fef",
+    "envoy-v1.13.7-darwin-amd64.tar.xz": "934db9931a5fa7e6a2b435333cce0267168c3aaf8e5ea66827ca5c8d8173ddaa",
+    "envoy-v1.13.7-linux-amd64.tar.xz": "8e2c65f9a02dc3d7afa9560affd94b4f332847f2d760655da96d27536e47289c",
+    "envoy-v1.14.1-linux-amd64.tar.xz": "9d6cda3606b526072d32b8227d8e761a37c5cb68c8d63c0add4edb5576bf1194",
+    "envoy-v1.14.2-linux-amd64.tar.xz": "c91adcf53feb4b260742819abfa09382f1d2ea9c304724610c343a1706b7833d",
+    "envoy-v1.14.3-linux-amd64.tar.xz": "489af1b96e5e0305323134450087c0c74f59148dd0e926a16b752bc46c69b09c",
+    "envoy-v1.14.4-linux-amd64.tar.xz": "55bf18d6aea1ff6b0b85e9099c1c0af18a2dea6678d6e749469ff206a0bffdc6",
+    "envoy-v1.14.5-linux-amd64.tar.xz": "652d2683b5c2aa2bdab7467c9176813fc2ec0b226741a5434779760ff0617d07",
+    "envoy-v1.14.6-linux-amd64.tar.xz": "7dfe9c92096d9245e23d90c06336abdb58136e3cbebd38ec79f5be2015eb014b",
+    "envoy-v1.14.7-darwin-amd64.tar.xz": "3de4fa1271a373dbc0d2a35ae56e16046652af2a455a1ff2b85d670a7683bf38",
+    "envoy-v1.14.7-linux-amd64.tar.xz": "8c1235f93b751c855239b199b07a4c97ef85b5e2f330e8d3d5911e2bb46e6a9a",
+    "envoy-v1.15.0-linux-amd64.tar.xz": "901dd740ae9efb4028bfaec3b9f8d081d14f9ad9c05e83f0409b5f73f1316fc4",
+    "envoy-v1.15.1-linux-amd64.tar.xz": "371e8b08b77eb3b2fa0f59de5eb3f434fb1b56868a1a25c22fc47aa0a198381d",
+    "envoy-v1.15.2-linux-amd64.tar.xz": "959216ee04b2a1288c22e044bdc5ac44846d9bc77dc10e582a6b529584add21a",
+    "envoy-v1.15.3-linux-amd64.tar.xz": "f2e598a51b6bf167960802338f391cc2fddba3cce65a7f9d0c5131557dd85458",
+    "envoy-v1.15.5-darwin-amd64.tar.xz": "8c6710c4380eb13c1748a44864af146a6bae75145a1a7dd590e3fcb61de71a84",
+    "envoy-v1.15.5-linux-amd64.tar.xz": "227c6166d4fb73e6d8ef8976549536a50fa9e5b0fdc6984190524d829a33b9b2",
+    "envoy-v1.15.5-linux-arm64.tar.xz": "dd9ae8dc76cd7704f22c51a7ec282c0af53e5facc16116be1cf9d396f792cef2",
+    "envoy-v1.16.0-linux-amd64.tar.xz": "4b66587d1cdfe7dfc89374f00c81e6c6b73b40d64259ba7d1885f331f59db2f4",
+    "envoy-v1.16.0-linux-arm64.tar.xz": "81ac121c20a609a17ff37e4ca272fb21dac9b8a8796b675dd6194960632bbe0a",
+    "envoy-v1.16.1-linux-amd64.tar.xz": "74e25b6a2343b792de682087b84bc3f9fa002d025a3853d9cefc2785a76dac65",
+    "envoy-v1.16.1-linux-arm64.tar.xz": "b80cfef7924a1b3159588211bc2b141b0554dfec160a64084b57a7c753d1d5df",
+    "envoy-v1.16.2-linux-amd64.tar.xz": "55c568d9bf30fbd692c17b3027b5fb3ed93e16802f3cdcb9b535b4b1977e65d1",
+    "envoy-v1.16.2-linux-arm64.tar.xz": "f5e0b7eca2f1865959c1fad63bde29d4eba04b0b911e35edd6729e95efb07e42",
+    "envoy-v1.16.3-linux-amd64.tar.xz": "33ac1044aaa12680535f037a54bdba1b3c855633ac765b98efc8001e7ddc67a1",
+    "envoy-v1.16.3-linux-arm64.tar.xz": "5873d8a741d5e5667864bd4e13ed2944320d3b0a58267ee852e5e41023b6ddda",
+    "envoy-v1.16.3-windows-amd64.tar.xz": "b21b61fc803fc9bf31b38bc579fa15b6f6796da92246dd20d8cb7b90c052f89e",
+    "envoy-v1.16.4-darwin-amd64.tar.xz": "52a927d8599247c548af0e9811f1d8e7d407fc84f055e7260027e5014b8ddbda",
+    "envoy-v1.16.4-linux-amd64.tar.xz": "f268b7687594e75ac20823720a1fcb59a180ba8f4bdab3446011104e14d6d89f",
+    "envoy-v1.16.4-linux-arm64.tar.xz": "970a579e5396d24cfb1244f0f7d936c19fd08c7d134aae9606cfa7b2912da350",
+    "envoy-v1.16.4-windows-amd64.tar.xz": "293bc211106eb3664602ea0f9408eb83b0bb2d4a9d4d1090d5d682fd41a673e8",
+    "envoy-v1.16.5-linux-amd64.tar.xz": "b3eb030f915403529495886f7e1abe739fd081753d85972b9d0466c9eeeeb6ab",
+    "envoy-v1.16.5-linux-arm64.tar.xz": "2832a2252282fd460cba9b418701eccf536ce190c2d2cf851f222e8ff8ba3f69",
+    "envoy-v1.17.0-linux-amd64.tar.xz": "62e845c01de64f7824c16f565836b49c600937b5dfd207e0266232b5390cf7f0",
+    "envoy-v1.17.0-linux-arm64.tar.xz": "ec933d66b07fc5d4196563183f6511eb6ebd428b3ec46a542b2e274bd89d90b0",
+    "envoy-v1.17.1-linux-amd64.tar.xz": "9797175d771db74da4b0500b63811784beeb8a7f5d327989202f6e987320071c",
+    "envoy-v1.17.1-linux-arm64.tar.xz": "50c379037174a2afd245f7d671e8a9754d3afd24ae1dd98b2da6e4a84db49073",
+    "envoy-v1.17.2-linux-amd64.tar.xz": "80f754e6a2ba490ea9db7466acf1478214ef1670da1b9b844da68d126ce086e4",
+    "envoy-v1.17.2-linux-arm64.tar.xz": "093a4cfef43d09b9568a43e8b282157cd1744f98665cb7bff7e7075e82ad302c",
+    "envoy-v1.17.2-windows-amd64.tar.xz": "33f46a2de5b9f5116e40a20d3a4ec19b5678e7389414853b1e41f58640e60b63",
+    "envoy-v1.17.3-darwin-amd64.tar.xz": "4348507075e1250e31b1d2fefee706664bf0fbd077014634683a1e9eb84a8fbd",
+    "envoy-v1.17.3-linux-amd64.tar.xz": "8e0a9b158c7d5c0f87def2405167a3689a13a6fd5cbe28235a499788a86650f8",
+    "envoy-v1.17.3-linux-arm64.tar.xz": "7f722c2eb05cb6bffbf980ceb05e6b4b581a7354dcb80ffb3f6ed0df943d1e49",
+    "envoy-v1.17.3-windows-amd64.tar.xz": "b8fa922e5407104376c3870d8050c4d20be6b0ba9a395a1ae0984412bf53b7e0",
+    "envoy-v1.17.4-linux-amd64.tar.xz": "f5fa8c1e4d87cab2e910b3acad6c83e345815af283f2e91f287fe304cdc454bf",
+    "envoy-v1.17.4-linux-arm64.tar.xz": "dafbeb0ae101fce2221324ba5c08800e047fd091542ffe680a39ef9ab35de86a",
+    "envoy-v1.17.4-windows-amd64.tar.xz": "14083c16bb352df7958943ce4c948ecba0a5bc803237782af880db862c811d2a",
+    "envoy-v1.18.3-darwin-amd64.tar.xz": "cb27be135f0d48167b756d17fa9117ed6295ee3f69e4db7900b94ddffef463e1",
+    "envoy-v1.18.3-linux-amd64.tar.xz": "10e1c6bc354018578f02c97358d3bbc9a26d4989cf752963611e69dac52656f4",
+    "envoy-v1.18.3-linux-arm64.tar.xz": "367d61bf246d56cc24949574977edefa4649ad2072c08d57a8bd63c44d991d25",
+    "envoy-v1.18.3-windows-amd64.tar.xz": "1274f55b3022bc1331aed41089f189094e00729981fe132ce00aac6272ea0770",
+    "envoy-v1.18.4-darwin-amd64.tar.xz": "ded0fd776e7b891a672fe1b0a992bea1806ccccbb995d0d7ef5974ab13c1e1a4",
+    "envoy-v1.18.4-linux-amd64.tar.xz": "844cbab986a7db11749105bed282c0c6787fde7f0ad28ac9171ed7406137db56",
+    "envoy-v1.18.4-linux-arm64.tar.xz": "70dd6a0412a3017b8591b9b07bb208c01f1085518dc260b1a779ffedef1e6064",
+    "envoy-v1.18.4-windows-amd64.tar.xz": "b8caff56e50bc26d49a00ef6e0fda0c43ec93210aea342838eef66a5c9b9e761",
+    "envoy-v1.19.0-darwin-amd64.tar.xz": "6e1a6cb260b9a8ff3e46370f34e00cb74289251b3b62653e8528b0a685dc26d0",
+    "envoy-v1.19.0-linux-amd64.tar.xz": "25486044d4bd50a6350b4a132ca00b743bdf3d042b8cedc7f203d007ea7904b7",
+    "envoy-v1.19.0-linux-arm64.tar.xz": "e5910e5c60ec2ea4defa089ffe2c8daa0eac7f26437a7669823f47a141356ed8",
+    "envoy-v1.19.0-windows-amd64.tar.xz": "f91617f9a83e5164d8f8ca5f8cfed089b3cae237f8579b208c04cf2075145810",
+    "envoy-v1.19.1-darwin-amd64.tar.xz": "ec8dff67d04d9f31b26f964a63ca829a4c9112c030d1cbf4a37501c5987f57e7",
+    "envoy-v1.19.1-linux-amd64.tar.xz": "73830d5c463089af9e176b318be6f1af213b97addad882d0b1941557832b5800",
+    "envoy-v1.19.1-linux-arm64.tar.xz": "96f12cc3a90ac8329523eae211b44a36d9b95f4491d858a3620e13e2459f5017",
+    "envoy-v1.19.1-windows-amd64.tar.xz": "6533c668af38efb312b66a20cb1a53cfabb2c2afba458ebbc746bd00486cce6f",
+    "envoy-v1.20.0-darwin-amd64.tar.xz": "1a82cb792a29a18a8e2e8500400562caf8012dee07b2c4731490dc125d200084",
+    "envoy-v1.20.0-linux-amd64.tar.xz": "1f44289493cec2587a7af03303bf0b5a5a705f60cbea509656c264027d84ffc2",
+    "envoy-v1.20.0-linux-arm64.tar.xz": "287d87336aab0955a3b3776e5021873c4272d060781bbdf7158cf512f62a6841",
+    "envoy-v1.20.0-windows-amd64.tar.xz": "6c3da4e49b3a7f14df595d861a34c15ac7af08bca5a50790f028f9c8786cf259"
+  }
+}
