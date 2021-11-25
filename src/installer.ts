@@ -45,6 +45,7 @@ export async function getEnvoy(version: string): Promise<void> {
     core.addPath(path.join(cached, 'bin'));
   }
   // TODO(dio): Support win32.
+  core.info('Done');
 }
 
 const manifestUrl = 'https://archive.tetratelabs.io/envoy/envoy-versions.json';
