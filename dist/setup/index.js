@@ -5458,12 +5458,14 @@ function getEnvoy(version) {
         const osArch = getOsArch();
         const tarball = currentVersionInfo === null || currentVersionInfo === void 0 ? void 0 : currentVersionInfo.tarballs[osArch];
         const downloaded = yield tc.downloadTool(tarball);
-        const extracted = yield tc.extractTar(downloaded, undefined, ['xJ']);
+        const extracted = yield tc.extractTar(downloaded, undefined, [
+            'xJ',
+            '--strip',
+            '1'
+        ]);
         const cached = yield tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
-        if (os.platform() !== 'win32') {
-            core.addPath(path.join(cached, 'bin'));
-        }
-        // TODO(dio): Support win32.
+        core.addPath(path.join(cached, 'bin'));
+        core.info('Done');
     });
 }
 exports.getEnvoy = getEnvoy;

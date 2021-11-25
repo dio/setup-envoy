@@ -4,6 +4,7 @@ import path = require('path');
 import * as core from '@actions/core';
 import * as hc from '@actions/http-client';
 import * as tc from '@actions/tool-cache';
+import * as proc from '@actions/exec';
 
 export interface IEnvoyVersions {
   latestVersion: string;
@@ -39,12 +40,14 @@ export async function getEnvoy(version: string): Promise<void> {
   const osArch = getOsArch();
   const tarball = currentVersionInfo?.tarballs[osArch];
   const downloaded = await tc.downloadTool(tarball);
-  const extracted = await tc.extractTar(downloaded, undefined, ['xJ']);
+  const extracted = await tc.extractTar(downloaded, undefined, [
+    'xJ',
+    '--strip',
+    '1'
+  ]);
   const cached = await tc.cacheDir(extracted, 'envoy', currentVersion, osArch);
-  if (os.platform() !== 'win32') {
-    core.addPath(path.join(cached, 'bin'));
-  }
-  // TODO(dio): Support win32.
+  core.addPath(path.join(cached, 'bin'));
+  core.info('Done');
 }
 
 const manifestUrl = 'https://archive.tetratelabs.io/envoy/envoy-versions.json';
